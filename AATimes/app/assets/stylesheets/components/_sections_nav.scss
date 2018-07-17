@@ -1,0 +1,28 @@
+.sections-bar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+
+.sections-links {
+	display: flex;
+	font-family: $sans-serif;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sections-links a{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sections-links a:hover {
+  background-color: $light-gray;
+}
+.sections-links a:last-of-type:hover{
+  text-decoration: underline;
+  background-color: #FFFFFF;
+}
